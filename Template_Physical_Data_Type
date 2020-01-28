@@ -1,0 +1,17 @@
+#ifndef <Physical_Data_Type Name upper case>_H
+#define <Physical_Data_Type Name upper case>_H
+
+#include "stdint.h"
+
+/* Physical_Data_Type */
+/*
+<Physical_Data_Type Description>
+*/
+/*
+Unit : <Physical_Data_Type Unit>
+Resolution : <Physical_Data_Type Resolution>
+Offset : <Physical_Data_Type Offset>
+*/
+typedef <Physical_Data_Type Base_Data_Type_Ref> <Physical_Data_Type Name>;
+
+#endif
