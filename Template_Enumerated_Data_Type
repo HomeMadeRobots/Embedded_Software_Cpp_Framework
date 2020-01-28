@@ -1,0 +1,13 @@
+#ifndef <Enumerated_Data_Type name upper case>_H
+#define <Enumerated_Data_Type name upper case>_H
+
+/* Enumerated_Data_Type */
+/* <Enumerated_Data_Type description> */
+typedef enum <Enumerated_Data_Type name> {
+    < first enumeral name >, /* <first enumeral description>*/
+	< second enumeral name >, /* <second enumeral description>*/
+	
+    < last enumeral name > /* <last enumeral description>*/
+} <Enumerated_Data_Type name>;
+
+#endif
