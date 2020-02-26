@@ -26,3 +26,16 @@ void Event::Add_Event_Reception_Point( Event_Reception_Point* reception_point )
     }
     *current_point = reception_point;
 }
+
+
+Event_Reception_Point::Event_Reception_Point( void )
+{
+	this->Next_Receiver = 0;
+	this->Parent = 0;
+}
+
+Event_Reception_Point::Event_Reception_Point( void* x )
+{
+	this->Next_Receiver = 0;
+	this->Parent = x;
+}
