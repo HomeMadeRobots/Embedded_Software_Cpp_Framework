@@ -16,13 +16,13 @@ public :
     /* Synchronous_Operation */
     /* description */
     virtual void <sync_operation>( in_arg_type in_arg, out_arg_type* out_arg ) = 0;
-	
-	/* Asynchronous_Operation */
-	/* description */
+
+    /* Asynchronous_Operation */
+    /* description */
     virtual void <async_operation>( 
-		Asynchronous_Operation_Manager* async_op_mgr, 
-		in_arg_type in_arg,
-		out_arg_type* out_arg ) = 0;
+        Asynchronous_Operation_Manager* async_op_mgr, 
+        in_arg_type in_arg,
+        out_arg_type* out_arg ) = 0;
 };
 
 #endif
